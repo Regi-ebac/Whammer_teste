@@ -511,32 +511,33 @@
                             <h1 class="display-5 mb-4">Cotação Gratuita</h1>
                         </div>
                         <p class="mb-4 pb-2">E para fazer seu orçamento gratuito, basta entrar em contato conosco. Nossa equipe estará feliz em fornecer um orçamento personalizado e sem compromisso, permitindo que você avalie nossos serviços com tranquilidade.</p>
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">                                                                
-                                <input type="text" name="name"class="form-control border-0" placeholder="Seu Nome" id="name"style="height: 55px;" required>
+                        <form action="https://formsubmit.co/4606fbc2089fd435cfa0d4f5c1b8cf4b" method="POST">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">                                                                
+                                    <input type="text" name="name"class="form-control border-0" placeholder="Seu Nome" id="name"style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" name="email"class="form-control border-0" placeholder="Seu Email" id="email" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" name="tel" class="form-control border-0" placeholder="Seu Telefone" id="tel"style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Selecione o Serviço</option>
+                                        <option value="1">Moldes</option>
+                                        <option value="2">Manutenção</option>
+                                        <option value="3">Desenvolvimento</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" name="msg" placeholder="Escreva com poucas Palavras o serviços Desejado."></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" name="message" type="submit" value="submit">Enviar</button>                                    
+                                    <input type="hidden" name="redirectTo" href="./obrigado.html" value="obrigado.html">                                    
+                                </div>
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" name="email"class="form-control border-0" placeholder="Seu Email" id="email" style="height: 55px;" required>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="text" name="tel" class="form-control border-0" placeholder="Seu Telefone" id="tel"style="height: 55px;" required>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <select class="form-select border-0" style="height: 55px;">
-                                    <option selected>Selecione o Serviço</option>
-                                    <option value="1">Moldes</option>
-                                    <option value="2">Manutenção</option>
-                                    <option value="3">Desenvolvimento</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0" name="msg" placeholder="Escreva com poucas Palavras o serviços Desejado."></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" name="message" type="submit" value="submit">Enviar</button>                                    
-                                <input type="hidden" name="redirectTo" href="./obrigado.html" value="obrigado.html">                                    
-                            </div>
-                        </div>
                         </form>
                     </div>
                 </div>
