@@ -596,6 +596,31 @@
 }
 
 
+/*whatsapp link*/
+
+.whatsappLink {
+    position: fixed;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    bottom: 570px;
+    right: 23px;
+    background-color: #25d366;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 36px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.icon {
+    margin-top: 4px;
+    color: #FFFFFF;
+    width: 31px;
+    text-align: center;
+}
+
 /*** Footer ***/
 .footer {
     background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/footer.jpg) center center no-repeat;
